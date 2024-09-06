@@ -144,6 +144,7 @@ const resultados = document.getElementById('resultados');
 const detalhesAtleta = document.getElementById('detalhesAtleta');
 
 const atletas = [
+     { nome: 'Neymar Jr', historia: 'Neymar Jr. é um dos jogadores de futebol mais talentosos da sua geração. Com habilidades técnicas impressionantes e uma visão de jogo excepcional, ele se destacou em várias competições internacionais, levando sua equipe a conquistar títulos e marcar seu nome na história do esporte.' },
     { nome: 'Rebeca Andrade', historia: 'Atleta de ginástica artística, Rebeca Andrade brilhou nas Olimpíadas de 2024 ao conquistar medalhas de ouro na trave e no solo. Ela também ganhou a medalha de prata no individual geral, destacando-se pela sua habilidade e técnica refinada.' },
     { nome: 'Alison dos Santos', historia: 'Alison dos Santos é um dos grandes nomes do atletismo brasileiro, conquistando a medalha de ouro nos 400m com barreiras. Seu desempenho foi notável, e ele se tornou o recordista mundial na distância, solidificando seu lugar na história do esporte.' },
     { nome: 'Ítalo Ferreira', historia: 'Ítalo Ferreira, o talentoso surfista brasileiro, conquistou a medalha de ouro em 2024. Com uma performance impressionante, ele reafirmou sua posição como um dos melhores surfistas do mundo, trazendo orgulho para o Brasil.' },
