@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Brasil nas Olimpíadas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#pesquisa"><i class="fas fa-search"></i> Pesquisa</a></li>
+                <li><a href="#conquistas"><i class="fas fa-trophy"></i> Conquistas</a></li>
+                <li><a href="#timeline"><i class="fas fa-calendar-alt"></i> Linha do Tempo</a></li>
+                <li><a href="#historia"><i class="fas fa-book"></i> História</a></li>
+                <li><a href="#novidades"><i class="fas fa-bullhorn"></i> Novidades</a></li>
+            </ul>
+        </nav>
+        <h1>História do Brasil nas Olimpíadas</h1>
+    </header>
+    <main>
+        <section id="pesquisa">
+            <div class="pesquisa-descricao">
+                <h2>Encontre Atletas Olímpicos</h2>
+                <p>Digite o nome do atleta para buscar informações detalhadas sobre suas conquistas e desempenho nas Olimpíadas.</p>
+            </div>
+            <input type="text" id="inputAtleta" placeholder="Digite o nome do atleta" aria-label="Campo de pesquisa do atleta">
+            <button id="btnPesquisar">Pesquisar</button>
+        </section>
+        <section id="resultados">
+            <!-- Resultados da pesquisa serão inseridos aqui... -->
+        </section>
+        <section id="detalhesAtleta">
+            <!-- Detalhes do atleta selecionado serão exibidos aqui -->
+        </section>
+        <section id="timeline" class="timeline">
+            <div class="pesquisa-descricao">
+                <h2>Linha do tempo das olimpíadas</h2>
+                <p>Para saber mais detalhes sobre cada Olimpíada, clique na que deseja explorar.</p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item" onclick="window.open('URL_PARIS', '_blank')">
+                    <h3>2024 - Paris</h3>
+                    <div class="timeline-details">
+                        <a href="URL_PARIS" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="timeline-item" onclick="window.open('URL_TOQUIO', '_blank')">
+                    <h3>2020 - Tóquio</h3>
+                    <div class="timeline-details">
+                        <a href="URL_TOQUIO" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="timeline-item" onclick="window.open('URL_RIO', '_blank')">
+                    <h3>2016 - Rio de Janeiro</h3>
+                    <div class="timeline-details">
+                        <a href="URL_RIO" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="timeline-item" onclick="window.open('URL_LONDRES', '_blank')">
+                    <h3>2012 - Londres</h3>
+                    <div class="timeline-details">
+                        <a href="URL_LONDRES" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="timeline-item" onclick="window.open('URL_PEQUIM', '_blank')">
+                    <h3>2008 - Pequim</h3>
+                    <div class="timeline-details">
+                        <a href="URL_PEQUIM" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="timeline-item" onclick="window.open('URL_ATENAS', '_blank')">
+                    <h3>2004 - Atenas</h3>
+                    <div class="timeline-details">
+                        <a href="URL_ATENAS" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="timeline-item" onclick="window.open('URL_SYDNEY', '_blank')">
+                    <h3>2000 - Sydney</h3>
+                    <div class="timeline-details">
+                        <a href="URL_SYDNEY" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="timeline-item" onclick="window.open('URL_ATLANTA', '_blank')">
+                    <h3>1996 - Atlanta</h3>
+                    <div class="timeline-details">
+                        <a href="URL_ATLANTA" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="timeline-item" onclick="window.open('URL_BARCELONA', '_blank')">
+                    <h3>1992 - Barcelona</h3>
+                    <div class="timeline-details">
+                        <a href="URL_BARCELONA" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="timeline-item" onclick="window.open('URL_SEUL', '_blank')">
+                    <h3>1988 - Seul</h3>
+                    <div class="timeline-details">
+                        <a href="URL_SEUL" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="timeline-item" onclick="window.open('URL_LOS_ANGELES', '_blank')">
+                    <h3>1984 - Los Angeles</h3>
+                    <div class="timeline-details">
+                        <a href="URL_LOS_ANGELES" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="timeline-item" onclick="window.open('URL_MOSCOVO', '_blank')">
+                    <h3>1980 - Moscovo</h3>
+                    <div class="timeline-details">
+                        <a href="URL_MOSCOVO" target="_blank" class="timeline-link">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="historia">
+            <h2>A História das Olimpíadas e o Impacto no Brasil</h2>
+            <div class="historia-container">
+                <img src="imagens/brasil.png" alt="Imagem das Olimpíadas" class="historia-imagem">
+                <div class="historia-texto">
+                    <p>Os Jogos Olímpicos têm uma longa história que remonta à Grécia Antiga, onde eram realizados em honra ao deus Zeus. Desde então, o evento evoluiu para se tornar um dos maiores e mais importantes eventos esportivos do mundo.</p>
+                    <p>O Brasil começou a participar dos Jogos Olímpicos modernos em 1920. Desde então, o país tem se destacado em várias modalidades, conquistando medalhas e ganhando reconhecimento internacional. Com a realização dos Jogos Olímpicos no Rio de Janeiro em 2016, o Brasil teve a oportunidade de mostrar ao mundo sua rica cultura e paixão pelo esporte.</p>
+                    <p>Nas Olimpíadas de 2024 em Paris, o Brasil continuou a tradição de excelência esportiva, com atletas de diversas modalidades trazendo orgulho ao país e contribuindo para a história do esporte global.</p>
+                </div>
+            </div>
+        </section>
+        <section id="novidades">
+            <h2>Novidades e Eventos Recentes</h2>
+            <ul>
+                <li><strong>Parcerias Estratégicas:</strong> O Brasil firmou novas parcerias com marcas esportivas para apoiar os atletas na preparação para as próximas competições.</li>
+                <li><strong>Inovações Tecnológicas:</strong> Novas tecnologias estão sendo implementadas para melhorar o desempenho dos atletas e a experiência dos espectadores.</li>
+                <li><strong>Eventos de Preparação:</strong> Diversos eventos de preparação e torneios de pré-temporada estão sendo organizados para garantir que os atletas estejam prontos para os próximos desafios.</li>
+            </ul>
+        </section>
+        
+        <section id="conquistas">
+            <h2>Conquistas do Brasil em todas edições</h2>
+                <p><strong>Orgulho em Cada Medalha: A Jornada Olímpica do Brasil, Celebrando Conquistas e Superações ao Longo dos Jogos.</strong></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 História do Brasil nas Olimpíadas. Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: <a href="mailto:atletas@brasil.com">atletas@brasil.com</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
