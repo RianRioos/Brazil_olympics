@@ -34,7 +34,6 @@ Contribuições são bem-vindas! Se você deseja melhorar este projeto, faça um
    Clone este repositório para o seu ambiente local:
 
    ```bash
-   git clone https://github.com/RianRioos/Tecsidel-/
-
+   git clone https://github.com/RianRioos/Brazil_olympics.git
 
 
